@@ -48,7 +48,7 @@
                     </h6>
                     <div class="mt-3 d-flex justify-content-between">
                         <a href="add-to-cart?id=<%= product.getId()%>" class="btn btn-dark">Add to card</a>
-                        <a href="#" class="btn btn-primary">Buy now</a>
+                        <a href="order-now?quantity=1&id=<%=product.getId()%>" class="btn btn-primary">Buy now</a>
                     </div>
                 </div>
             </div>

@@ -9,8 +9,11 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Cart extends Product {
+public class Order extends Product {
 
+    private int orderId;
+    private int uid;
     private int quantity;
+    private String date;
 
 }
