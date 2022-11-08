@@ -1,0 +1,27 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="e-commerce:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/e_commerce_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="e-commerce/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="e-commerce" />
+          <element id="library" level="application" name="bootstrap" />
+          <element id="library" level="application" name="jquery-3.2.1.slim" />
+          <element id="library" level="application" name="popper.js" />
+          <element id="library" level="application" name="font-awesome" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:4.0.1" />
+          <element id="library" level="project" name="Maven: javax.servlet:servlet-api:2.5" />
+          <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
+          <element id="library" level="project" name="Maven: org.checkerframework:checker-qual:3.5.0" />
+          <element id="library" level="project" name="Maven: org.postgresql:postgresql:42.5.0" />
+          <element id="library" level="project" name="Maven: org.projectlombok:lombok:1.18.24" />
+          <element id="library" level="project" name="Maven: javax.servlet.jsp:jsp-api:2.1" />
+          <element id="library" level="project" name="Maven: javax.servlet.jsp.jstl:jstl-api:1.2" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
